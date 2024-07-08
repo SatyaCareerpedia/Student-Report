@@ -1,0 +1,203 @@
+
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #555;
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #777;
+  margin-top: 15px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+input{
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: calc(50% - 10px);
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="number"] {
+  width: 30%;
+}
+
+input::placeholder{
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin:15px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+ul li:first-child {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .App {
+    width: 90%;
+  }
+
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+  }
+}
+
+.student-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.student-card {
+  width: 100%;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+table.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  
+}
+
+table.styled-table th,
+table.styled-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  
+}
+
+table.styled-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+table.styled-table td ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+table.styled-table td ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.category-header,
+.title-date-header,
+.score-comments-header {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  padding: 12px;
+}
+
+.category {
+  font-weight: bold;
+  color: #555;
+}
+
+.list-items button{
+  margin: 8px;
+ 
+}
+
+.list-items li {
+  color: #777;
+  
+}
+
+@media (max-width: 768px) {
+  .student-card {
+    width: 90%;
+  }
+}
+
+textarea {
+  width: 80%;
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: "Poppins", sans-serif;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none; 
+}
